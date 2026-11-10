@@ -1,0 +1,24 @@
+metric,value
+bank_rows_clean,110
+bank_all_fit_split_train,True
+leakage_clean,PASS: PASS
+leakage_leaky,"FAIL: LEAK: action 057edcc8-f812-42cc-9a74-1b7bce2255e5 fit_split=all (row 6, col worst te"
+replay_rows,16
+replay_nonzero,15
+replay_mean_abs_delta,0.0956
+audit_control_clean_s42_ledger_flag,False
+audit_control_clean_s42_stat_flag(gap=0.0523),True
+audit_control_clean_s7_ledger_flag,False
+audit_control_clean_s7_stat_flag(gap=0.0035),False
+audit_C1_leaky_honest_label_ledger_flag,True
+audit_C1_leaky_honest_label_stat_flag(gap=0.0573),True
+audit_C2_leaky_label_forged_as_train_ledger_flag,True
+audit_C2_leaky_label_forged_as_train_stat_flag(gap=0.0573),True
+audit_C3_fit_on_test_only_ledger_flag,True
+audit_C3_fit_on_test_only_stat_flag(gap=0.0943),True
+cmp_A_leaky_mean_auc,0.9931
+cmp_A_leaky_mean_mae,16.4303
+cmp_B_split_aware_mean_auc,0.9932
+cmp_B_split_aware_mean_mae,16.0205
+cmp_C_no_repair_mean_auc,0.9931
+cmp_C_no_repair_mean_mae,38.2351

@@ -1,0 +1,16 @@
+seed,mode,test_auc,repair_mae
+0,A_leaky,0.9936,16.938
+0,B_split_aware,0.9936,16.9201
+0,C_no_repair,0.9942,36.8021
+1,A_leaky,0.9861,18.2853
+1,B_split_aware,0.9861,18.3611
+1,C_no_repair,0.9867,35.2756
+2,A_leaky,0.9983,15.9351
+2,B_split_aware,0.9983,15.0791
+2,C_no_repair,0.9977,40.1721
+3,A_leaky,0.9948,15.9607
+3,B_split_aware,0.9948,14.8662
+3,C_no_repair,0.9948,38.7625
+4,A_leaky,0.9925,15.0323
+4,B_split_aware,0.9931,14.8762
+4,C_no_repair,0.9919,40.1633

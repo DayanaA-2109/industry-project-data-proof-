@@ -1,0 +1,6 @@
+case,contaminated,ledger_flag,ledger_reason,reward_gap,stat_flag,threshold
+control_clean_s42,False,False,all actions fit on train (label and hash agree),0.0523,True,0.05
+control_clean_s7,False,False,all actions fit on train (label and hash agree),0.0035,False,0.05
+C1_leaky_honest_label,True,True,110 actions declare fit_split=all,0.0573,True,0.05
+C2_leaky_label_forged_as_train,True,True,110 actions: label says train but fit_hash != train hash,0.0573,True,0.05
+C3_fit_on_test_only,True,True,110 actions declare fit_split=test,0.0943,True,0.05
